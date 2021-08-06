@@ -1,12 +1,12 @@
 # Denoise
 
-Audio Noise reduction using a Wiener filter and Portaudio.
+Audio noise reduction using a Wiener filter and PortAudio.
 
 ## Building using GCC and Make
 
-1. Download and install [Portaudio](http://www.portaudio.com/)
+1. Download and install [PortAudio](http://www.portaudio.com/)
 
-2. Make sure that the Portaudio headers can be found by the compiler and the library by the linker.
+2. Make sure that the PortAudio headers can be found by the compiler and the library by the linker.
 
 3. Download the contents of this repository.
 

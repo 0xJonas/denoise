@@ -35,8 +35,8 @@ test : ${testExe}
 ${testExe} : ${commonObjects} ${testObjects}
 	${CC} -o $@ ${flags} $^
 
-# ${binDir}/test: ${binDir}
-# 	mkdir ${binDir}/test
+${binDir}/test: ${binDir}
+	mkdir ${binDir}/test
 
 ${binDir}/test/%.o : ${testDir}/%.c ${binDir}/test
 	${CC} -c -o $@ ${flags} -I${srcDir} $<
